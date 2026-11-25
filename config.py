@@ -1,0 +1,25 @@
+"""Compatibility shim — prefer `app.config` in new code."""
+
+from app.config import (  # noqa: F401
+    API_HASH,
+    API_ID,
+    DEFAULT_OPENAI_MODEL,
+    FAL_KEY,
+    OPEN_AI_KEY,
+    OPENAI_FREQUENCY_PENALTY,
+    OPENAI_IMAGE_FALLBACK_MODELS,
+    OPENAI_IMAGE_MODEL,
+    OPENAI_IMAGE_QUALITY,
+    OPENAI_IMAGE_SIZE,
+    OPENAI_MAX_COMPLETION_TOKENS,
+    OPENAI_PRESENCE_PENALTY,
+    OPENAI_RETRIES,
+    OPENAI_SEED,
+    OPENAI_TEMPERATURE,
+    OPENAI_TIMEOUT,
+    OPENAI_TOP_P,
+    administrators,
+    get_settings,
+    settings,
+    token,
+)

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.mypy_cache/
+.pytest_cache/
+
+# Virtualenv
+myenv/
+.venv/
+venv/
+
+# Secrets & local env
+.env
+.env.*
+!.env.example
+
+# Runtime data
+database/*.db
+database/*.db-*
+database/*.db-journal
+database/referral_share_file_id.txt
+sessions/
+*.session
+*.session-journal
+logs/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Large local drafts (keep TZ markdown in repo)
+*.pdf
+*.docx
